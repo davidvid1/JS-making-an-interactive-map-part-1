@@ -87,7 +87,7 @@ window.onload = async () => {
 
 
 
-// window load
+
 
 // business submit button
 
