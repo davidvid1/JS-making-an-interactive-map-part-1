@@ -21,7 +21,7 @@ buildMap() {
     const marker = L.marker(this.coordinates)
     marker
     .addTo(this.map)
-    .bindPopup('<p1><b>You are here</b><br></p1>')
+    .bindPopup('<p1><b>WE ARE HRE!</b><br></p1>')
     .openPopup()
 },
 addMarkers() {
@@ -43,6 +43,8 @@ async function getCoords(){
 	});
 	return [pos.coords.latitude, pos.coords.longitude]
 }
+
+
 
 
 // get foursquare businesses
